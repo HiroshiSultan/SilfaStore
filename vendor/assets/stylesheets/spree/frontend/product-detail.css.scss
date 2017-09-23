@@ -1,0 +1,159 @@
+
+/* 	Product Detail */
+
+#product_left_part {
+	margin-top: 40px;
+}
+
+#product_right_part {
+	margin-top: 15px;
+	padding-left: 30px;
+}
+
+#main-image > .panel-body {
+	padding: 0px;
+}
+
+#main-image > .panel-body > img {
+	width: 100%;
+}
+
+#product-description > h1.product-title {
+	font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #232323;
+    line-height: 1.4;
+}
+
+#product-price > span {
+	font-size: 1.733em;
+	line-height: 1.4;
+    font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+    font-weight: 700;
+    color: #232323;
+}
+
+.items-count {
+	text-align: center;
+}
+
+.count-progress-bar {
+	height: 11px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	background-color: #ffe8e8;
+	border: 0px solid whitesmoke;
+}
+
+.count-remains {
+	height: 11px;
+	width: 30%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #ca0000;
+}
+
+#clock-ticker {
+	width: 100%;
+	margin: 10px auto 0px;
+	padding-top: 10px;
+}
+
+.block {
+	float: left;
+	width: 25%;
+	text-align: center;
+	position: relative;
+	color: #000;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 35px;
+}
+
+span.while {
+	display: block;
+}
+span.unit {
+	font-size: 14px;
+}
+
+.input-item {
+	font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 1em;
+    height: 40px;
+}
+
+#product-variants,
+#product-quantity {
+	font-size: 16px;
+	margin: 10px 0px 20px;
+}
+
+#product-variants > select {
+    padding: 5px 10px;
+    line-height: 1.42;
+    background: transparent;
+    border-radius: 3px;
+}
+
+#product-variants > select:active,
+#product-variants > select:focus,
+#product-quantity > input[type='number']:active,
+#product-quantity > input[type='number']:focus {
+	border-color: #db9e86;
+	border-width: 2px;
+}
+
+#product-quantity > input[type='number'] {
+	width: 60%;
+}
+
+#add-to-cart-button {
+	width: 100%;
+	height: 60px;
+	font-family: "Lato","HelveticaNeue","Helvetica Neue",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #139f20;
+}
+
+#checkout_image,
+#feedbacks {
+	margin: 20px 0px;
+}
+
+.images > img {
+	margin-bottom: 20px;
+	width: 70%;
+}
+
+.satisfaction {
+	font-size: 14px;
+    line-height: 1.6;
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    color: #000;
+    font-weight: bold;
+    margin: 10px 0px 30px;
+}
+
+.social-sharing {
+	margin-bottom: 50px;
+}
+
+.social-sharing > a {
+	border-radius: 2px;
+	padding: 3px 15px;
+	margin-right: 10px;
+}
+
+@media only screen and (max-width: 970px) {
+	.images > img {
+		width: 100%;
+	}	
+}

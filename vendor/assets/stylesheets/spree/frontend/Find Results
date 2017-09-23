@@ -1,0 +1,43 @@
+Searching 1754 files for "Spree Demo"
+
+/home/cris/Workspace/elvis-store/db/migrate/20170911184835_create_store_from_preferences.spree.rb:
+   19        Spree::Store.new do |s|
+   20          s.name              = preference_store.get 'spree/app_configuration/site_name' do
+   21:           'Spree Demo Site'
+   22          end
+   23          s.url               = preference_store.get 'spree/app_configuration/site_url' do
+
+/home/cris/Workspace/elvis-store/log/development.log:
+    <binary>
+
+2 matches across 2 files
+
+
+Searching 1754 files for "Spree Demo"
+
+/home/cris/Workspace/elvis-store/db/migrate/20170911184835_create_store_from_preferences.spree.rb:
+   19        Spree::Store.new do |s|
+   20          s.name              = preference_store.get 'spree/app_configuration/site_name' do
+   21:           'Spree Demo Site'
+   22          end
+   23          s.url               = preference_store.get 'spree/app_configuration/site_url' do
+
+/home/cris/Workspace/elvis-store/log/development.log:
+    <binary>
+
+2 matches across 2 files
+
+
+Searching 1754 files for "Spree Demo"
+
+/home/cris/Workspace/elvis-store/db/migrate/20170911184835_create_store_from_preferences.spree.rb:
+   19        Spree::Store.new do |s|
+   20          s.name              = preference_store.get 'spree/app_configuration/site_name' do
+   21:           'Spree Demo Site'
+   22          end
+   23          s.url               = preference_store.get 'spree/app_configuration/site_url' do
+
+/home/cris/Workspace/elvis-store/log/development.log:
+    <binary>
+
+2 matches across 2 files

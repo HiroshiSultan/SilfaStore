@@ -1,0 +1,213 @@
+#footer {
+	position: relative;
+}
+
+.site_footer {
+	background-color: #44b78b;
+	width: 100%;
+	margin: auto;
+}
+
+.grid-layout {
+	justify-content: center;
+	padding: 40px 0px;
+}
+
+.grid-item > div > h2 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.6em;
+	font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+}
+
+.grid-item {
+	padding-left: 30px;
+}
+
+.grid-item > p,
+.div-get-touch > p,
+.footer-left > p {
+	color: #fff;
+	font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+}
+
+.checkout-image {
+	width: 48px;
+	height: 29px;
+}
+
+.contact-footer {
+	background-color: #0c4b33;
+	width: 100%;
+	margin: auto;
+}
+
+.div-quick-links {
+	padding-left: 3%;
+}
+
+.div-get-touch {
+	padding-left: 6%;
+}
+
+.div-subscribe {
+	padding-left: 11%;
+}
+
+.div-quick-links > ul > li {
+	line-height: 25px;
+} 
+
+.div-quick-links > ul > li > a {
+	text-decoration: none;
+	background: transparent;
+	color: white;
+}
+.div-quick-links > ul > li > a:hover,
+.div-quick-links > ul > li > a:active {
+	text-decoration: none;
+	color: #ccc;
+}
+
+.div-footer-column > h3 {
+	color: #fff;
+	font-size: 1.133em;
+	font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	line-height: 1.4;
+	font-weight: 700;
+}
+
+ul {
+	list-style: none outside;
+}
+
+.div-email {
+	position: relative;
+}
+
+.email-input {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ababab;
+	background-color: rgba(0,0,0,0.1);
+	padding-left: 10px;
+	padding-right: 85px;
+	color: white;
+}
+
+.btn-email {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 80px;
+	height: 40px;
+	font-weight: bold;
+	color: #000;
+}
+
+.div-facebook {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 20px 0px;
+}
+
+.facebook-sparkjumps-icon {
+	color: #fff;
+	font-size: 23px;
+}
+
+.cards {
+	font-size: 30px;
+	color: #fff;
+	margin-left: 20px;
+}
+
+.pay-icons {
+	float: right;
+	width: 245px;
+	display: flex;
+	justify-content: center;
+}
+
+/*  apple pay icon */
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('//www.apple.com/wss/fonts/Myriad-Set-Pro/v1/myriad-set-pro_thin.woff'); /*URL to font*/
+}
+
+.fa-apple-pay {
+	font-size: 15px;
+	margin-left: 20px;
+	background-color: white;
+    color: #0c4b33;
+	border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px 2px 4px;
+    height: 28px;
+}
+
+.fa-apple-pay:before {
+    content:'\f179';
+}
+
+.fa-apple-pay:after {
+    font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+    content:"Pay";
+    padding-right:0.1em;
+}
+
+.fa-apple-pay-bordered {
+    padding: 0.4em 0.2em;
+    display:inline-block;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.guarantee-title {
+		display: flex;
+		justify-content: center;
+	}
+
+	.checkout-images {
+		text-align: center;
+	}
+	
+	.div-quick-links,
+	.div-get-touch,
+	.div-subscribe {
+		text-align: center;
+		padding-left: 0px;
+	}
+
+	.div-quick-links > ul {
+		padding: 0px;
+	}
+
+	.email-input {
+		width: 60%;
+	}
+	.btn-email {
+		right: 20%;
+	}
+
+	.footer-left,
+	.footer-right {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	.email-input {
+		width: 80%;
+	}
+	.btn-email {
+		right: 10%;
+	}
+}
+

@@ -1,0 +1,147 @@
+
+@import "bootstrap";
+@import "font-awesome";
+
+.header_phone {
+	position: absolute;
+	top: 5px;
+	right: 19.5%;
+	font-weight: bold;
+	color: white;
+}
+
+#header {
+	background-color: #008351 !important;
+	height: 150px;
+}
+
+#logo img {
+	max-height: 200px !important;
+	width: 320px;
+}
+
+#top-nav-bar {
+	margin-top: 30px;
+}
+
+/* Navigation bar */
+
+.nav li {
+	font-weight: bold;
+}
+
+
+/* Main Page */
+
+.h-subtitle {
+	color: #232323;
+	font-size: 1.733em;
+	margin: 40px 0px;
+	font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	font-weight: 700;
+}
+
+.topic {
+	font-weight: bold;
+	font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+	line-height: 1.6;
+	color: #000;
+}
+
+
+/* Contact us form  */
+
+#new_contact_us_contact {
+	padding: 20px 0px 50px;
+}
+
+#new_contact_us_contact > p {
+	margin-bottom: 20px;
+}
+
+#new_contact_us_contact > p > input:not([type="submit"]),
+#new_contact_us_contact > p > span > input:not([type="submit"]) {
+	background-color: #e5e5e5;
+	height: 37px;
+}
+
+#new_contact_us_contact > p > input:not([type="submit"]):focus,
+#new_contact_us_contact > p > span > input:not([type="submit"]):focus {
+	border-color: #da9d85;
+	border-width: 2px;
+}
+
+#new_contact_us_contact > p > textarea,
+#new_contact_us_contact > p > span > textarea {
+	background-color: #e5e5e5;
+	border-radius: 4px;
+}
+
+#new_contact_us_contact > p > textarea:focus,
+#new_contact_us_contact > p > span > textarea:focus {
+	border-color: #da9d85;
+	border-width: 2px;
+}
+
+#contact_us_contact_message {
+	height: 100px;
+}
+
+#contact_us_contact_submit {
+	color: #fff;
+    background-color: #0c4b33;
+    border-color: #2e6da4;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 40px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    user-select: none;
+}
+
+#contact_us_contact_submit:hover {
+	color: #fff;
+    background-color: #083524;
+    border-color: #204d74;
+}
+
+#taxonomies {
+	color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+
+	#new_contact_us_contact:last-child {
+		text-align: center;
+	}
+
+	.navbar-toggle > .icon-bar {
+		background-color: #fff;
+	}
+
+	#top-nav-bar {
+		display: none;
+	}
+
+	#myNavbar {
+		overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	.header-navbar-menu {
+		display: none;
+	}
+}
+
+
