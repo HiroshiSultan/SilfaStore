@@ -36,7 +36,7 @@
 .h-subtitle {
 	color: #232323;
 	font-size: 1.733em;
-	margin: 40px 0px;
+	margin: 0px;
 	font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
 	font-weight: 700;
 }
@@ -141,6 +141,14 @@
 
 	.header-navbar-menu {
 		display: none;
+	}
+
+	#main-nav-bar {
+		margin-left: -60px;
+	}
+
+	figure#logo {
+		padding-left: 0px;
 	}
 }
 

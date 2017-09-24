@@ -18,8 +18,11 @@ Deface::Override.new(:virtual_path => 'spree/shared/_main_nav_bar',
 				    </li>
 			  	</ul>
 				<ul class='nav navbar-nav'>
+					<li id='home-link' data-hook>
+						<%= link_to 'HOME', spree.root_path %>
+					</li>
 					<li id='products-link' data-hook>
-						<a href='/'>PRODUCTS</a>
+						<%= link_to 'PRODUCTS', spree.products_path %>
 					</li>
 					<li id='sizingchart-link' data-hook>
 						<%= link_to 'SIZING CHART', spree.sizingchart_path %>
